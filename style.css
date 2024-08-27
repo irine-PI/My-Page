@@ -10,16 +10,60 @@ header{
 }
 
 
+
+.about{
+    display: flex;
+   flex-direction: column;
+    gap: 20px;
+   
+}
+
+
+.about button{
+    width: 120px;
+    border-radius: 1px;
+    align-items: center;
+    padding: 5px 0;
+    background-color:azure;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+}
+
+
+button:hover{
+   background-color: #585854;
+   
+}
+
+
+.about a{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
 .container{
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 3px auto;
     padding: 30px 100px;
     box-shadow: 2px 2px 3px #585854;
+    
 
+}
+
+
+p{
+    font-size: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #4c4c46; 
 }
 
 
@@ -51,4 +95,52 @@ header{
     text-decoration: underline;
     transition: 0.3s;
 }
+
+
+.main{
+    
+    background: url(./assets/drop-of-water-578897_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #585854;
+}
+
+
+
+
+.skill{
+    background-color: rgb(217, 232, 245);
+    display: flex;
+    justify-content: space-evenly ;
+    gap: 100px;
+    padding: 50px;
+}
+
+
+
+
+.contact{
+    background-color: rgb(66, 128, 162);
+}
+
+.contact{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+ 
+.contact p{
+    color: black;
+}
+
+
 
